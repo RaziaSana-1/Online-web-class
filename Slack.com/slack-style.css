@@ -1,0 +1,534 @@
+.body{
+    width: 100%;
+    margin: 0;
+    font-family: Roboto, arial;
+    overflow-x: hidden;
+    background-color: #f4ede4;
+}
+.head-div{
+    height: 100px;
+    width: 100%;
+    grid-template-columns: 150px 630px 190px 1fr;
+    display: grid;
+    background-color: #541554;
+    cursor: pointer;
+}
+.slack-logo{
+    height: 150px;
+    width: 220px;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+.nav-list{
+    list-style-type:none;
+    display: flex;
+}
+.nav-list li{
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.sign-div{
+    display: flex;
+    margin-left:0;
+}
+.search-logo{
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+  
+}
+span{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.button-div{
+    display: flex;
+
+}
+.left-button{
+    height: 50px;
+    width: 170px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    border: 1px solid white;
+    background: none;
+    background-color: #541554;
+    color: white;
+    cursor: pointer;
+}
+.right-button{
+    height: 50px;
+    width: 190px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+    background-color: white;
+    color: #541554;
+    cursor: pointer;
+}
+.main-div{
+    background-color:#541554;
+    margin-top:0;
+    width: 100%;
+    height: 520px;
+    display: flex;
+}
+.main-div-text{
+    /* background-color: aquamarine; */
+    height: 520px;
+    width: 670px;
+    margin-left: 60px;
+}
+.heading-1{
+    font-size: 60px;
+    line-height: 70px;
+    color:white;
+    margin-top: 10px;
+}
+.p1{
+    color: white;
+    font-size: 20px;
+    margin-top: -40px;
+}
+.main-div-video{
+    height: 430px;
+    width: 620px;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+.vid-1{
+    margin-top: -280px;
+}
+.left-button2{
+    height: 50px;
+    width: 230px;
+    background-color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+    color: #541554;
+}
+.right-button2{
+    height: 50px;
+    width: 270px;
+    background-color:rgb(12, 174, 255);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.p3{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: white;
+}
+.google-logo{
+    height: 46px;
+    width: 55px;
+    position:absolute;
+    left: 307px;
+    top:  452px;
+}
+.right-button2:active{
+    background-color: white;
+    color:rgb(12, 174, 255) ;
+    cursor: pointer;
+
+}
+.p2{
+    word-spacing: 3px;
+    font-weight: 600;
+    font-size: 21px;
+    color: white;
+}
+.h4{
+    text-align: center;
+    margin-top: 55px;
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.div-logos{
+    height: 100px;
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.logo-1{
+    height: 50px;
+    width: 120px;
+    margin:auto;
+}
+.logo-2{
+    height: 70px;
+    width: 80px;
+    margin:auto;
+}
+.logo-3{
+    height: 40px;
+    width: 80px;
+    margin:auto;
+}
+.logo-4{
+    height: 60px;
+    width: 60px;
+    margin:auto;
+}
+.logo-5{
+    height: 40px;
+    width: 260px;
+    margin:auto;
+}
+.logo-6{
+    height: 40px;
+    width: 90px;
+    margin:auto;
+}
+.main-div2{
+    will-change: 100%;
+    height: 430px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.main-div2-video{
+    height: 430px;
+}
+.main-div2-text{
+    margin-top: -40px;
+    height: 430px;
+    margin-left: 20px;
+}
+.vid-2{
+    margin-top: -10px;
+    height: 380px;
+}
+.heading-3{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.p-4{
+    margin-left:80px ;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+a{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.arow-icon{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+
+
+.main-div3{
+    will-change: 100%;
+    height: 430px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+}
+.main-div3-video{
+    height: 430px;
+}
+.main-div3-text{
+    margin-top: 20px;
+    height: 430px;
+    margin-left: 20px;
+}
+.vid-3{
+    margin-top: -10px;
+    height: 380px;
+    width: 700px;
+    margin-right: -21px;
+}
+.heading-4{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.p-5{
+    margin-left:50px ;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+.a-2{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.larg-div-main{
+    width: 100%;
+    height: 1200px;
+    background-color: white;
+}
+.larg-main-div1{
+    height: 350px;
+    width: 100%;
+    grid-template-columns: 1fr 780px 1fr;
+    display: grid;
+}
+.larg-main-left{
+    height: 350px;
+}
+.larg-main-middle{
+    height: 350px;
+}
+.larg-main-right{
+    height: 350px;
+}
+.heading-6{
+    font-size: 43px;
+    margin-top: 100px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.p-6{
+    text-align: center;
+    font-size: 20px;
+}
+.button1{
+   height: 60px;
+   width: 300px;
+   margin-left: 100px;
+   background-color: #541554;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   font-size: 15px;
+   /* font-weight: 600; */
+
+}
+.button2{
+  height: 60px;
+  width: 220px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid #541554;
+  color: #541554;
+  font-size: 15px;
+  font-weight: 600;
+}
+.icon-11{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.icon-5{
+    height: 60px;
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.icon-27{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.icon-12{
+    width:90px ;
+    height: 60;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.icon-9{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.icon-8{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.larg-main-div2{
+    width: 100%;
+    height: 270px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.div-num-text{
+    height:220px ;
+    margin: auto;
+}
+.num{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: 600;
+    color: #541554;
+}
+.text{
+    margin-top: -80px;
+}
+.p-7{
+    margin-left:50px ;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight:300;
+}
+.vid-5{
+    height: 350px;
+    width: 700px;
+    border-radius:0px 300px 300px 0px;
+}
+.larg2-main{
+    width: 100%;
+    height: 650px;
+    background-color: #f4ede4;
+}
+.for-img{
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+.for-img-1{
+    background-color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+.for-img-1:hover{
+    transform:scale(1.1,1.1);
+}
+.for-img-2{
+    background-color:#541554;
+    margin: 15px;
+    cursor: pointer;
+}
+.for-img-2:hover{
+    transform:scale(1.1,1.1);
+}
+.buttom-purple{
+    width: 100%;
+    height: 330px;
+    background-color: #541554;
+    border-radius: 0px 0px 100px 100px;
+    padding-top: 90px;
+
+}
+.buttom-heading{
+    text-align: center;
+    font-size: 55px;
+    color: white;   
+}
+.bottom-left{
+    background-color: white;
+    height: 70px;
+    width: 210px;
+    color: #541554;
+    margin-left: 470px;
+    margin-top: 10px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+.bottom-right{
+    background:none;
+    height: 70px;
+    width: 210px;
+    color:white;
+    margin-left: 500px;
+    font-weight: 800;
+    border-radius: 4px;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+.footer-div{
+    background-color: white;
+    height: 530px;
+    width: 100%;
+    padding-top: 80px;
+    
+}
+.footer-list-div{
+    height: 390px;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display:grid;
+}
+.slack-icon{
+    height: 60px;
+    width: 80px;
+    margin-left: 40px;
+}
+.footer-heading{
+    margin-left: 9px;
+    font-size: 17px;
+}
+ul{
+    list-style-type: none;
+    margin-left: -29px;
+}
+ul li{
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.footer-left{
+    width: 800px;
+    height: 55px;
+    margin-top: 2px;
+    float: left;
+    display: flex;
+}
+.footer-right{
+    width: 400px;
+    height: 55px;
+    margin-top: 10px;
+    float: right;
+    display: flex;
+    margin-right: -35px;
+}
+.last-ul{
+    list-style-type: none;
+    display: flex;
+    margin:auto;
+    margin-left: -60px;
+}
+.last-ul li{
+    margin:15px;
+    font-weight: 600;
+}
+.right-list{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+}
+.right-list li{
+ 
+    margin: 5px;
+}
+.icons{
+    width: 20px;
+    height: 20px;
+}
+.footer-p{
+    font-size: 13px;
+    margin-top: 85px;
+    margin-left: -10px;
+}
